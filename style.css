@@ -1,0 +1,134 @@
+*{
+	box-sizing: border-box;
+    margin: 0px;
+    padding: 0%;
+}
+
+.search-section{
+    margin: 0;
+
+}
+
+button{
+	display: block;
+	margin: 10px auto;
+	background: crimson;
+	color: white;
+	border: 0;
+	cursor: pointer;
+	padding: 6px 10px;
+}
+
+.container, h3 {
+    color: green;
+}
+
+.result{
+    align-items: baseline;
+    text-align: center;
+}
+
+.popup-wrapper{
+	display: none;
+	background: rgba(0, 0, 0, .5);
+	position: fixed;
+	top:0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.popup{
+	font-family: arial;
+	text-align: center;
+	width: 100%;
+	max-width: 300px;
+	margin: 10% auto;
+	padding: 20px;
+	background: white;
+	position: relative;
+}
+
+.popup a {
+	color: white;
+	cursor: pointer;
+	padding: 6px 10px;
+	text-decoration: none;
+	background: crimson;
+}
+
+.popup-close{
+	position: absolute;
+	top: 5px;
+	right: 10px;
+	cursor: pointer;
+}
+
+body {
+    background-color: #eee;
+}
+
+.d-flex{
+    align-items: center;
+    text-align: center;
+}
+
+.card {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 5px 10px 8px #888888;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.col-md-4{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+.c-details span {
+    font-weight: 300;
+    font-size: 13px;
+}
+
+.icon{
+    width: 50px;
+    height: 50px;
+    background-color: #eee;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 39px
+}
+
+.badge span {
+    background-color: #fffbec;
+    width: 60px;
+    height: 25px;
+    padding-bottom: 3px;
+    border-radius: 10px;
+    display: flex;
+    color: green;
+    justify-content: center;
+    align-items: center
+}
+
+.progress {
+    height: 10px;
+    border-radius: 10px
+}
+
+.progress div {
+    background-color: green  
+}
+
+.text1 {
+    font-size: 18px;
+    font-weight: 600
+}
+
+.text2 {
+    color: gray
+}
